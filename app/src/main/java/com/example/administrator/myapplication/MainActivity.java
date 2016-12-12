@@ -18,7 +18,7 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
                 EditText question = (EditText)findViewById(R.id.question);
                 EditText answer = (EditText)findViewById(R.id.answer);
-                answer.setText("你的问题["+question.getText()+"],我回答不了!");
+                answer.setText("你的问题["+question.getText()+"],我回答不了");
             }
         });
     }
